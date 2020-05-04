@@ -17,7 +17,7 @@ public class GT4500 implements SpaceShip {
       this.primaryTorpedoStore = new TorpedoStore(10);
       this.secondaryTorpedoStore = new TorpedoStore(10);
     } catch (NoSuchAlgorithmException e) {
-      e.printStackTrace();
+      //handling
     }
   }
 
