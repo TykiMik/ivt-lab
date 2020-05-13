@@ -1,0 +1,5 @@
+Test_single_primaryEmpty_SecondaryNotEmpty: Firing mode single, primary torpedo store empty, secondary is not empty, then it should return true.
+Test_single_primaryNotEmpty_itFails: Firing mode single, the primary torpedo store can fire but it fails, the secondary doesn't try to fire, should return false.
+Test_single_bothStores_are_empty: Firing mode single, both torpedo stores are empty then it should return false.
+Test_all_secondaryEmpty: Firing mode all, secondery torpedo store is empty, the primary is not, then it should return true.
+Test_all_bothStores_empty: Firing mode all, torpedo stores are empty then it should return false.
